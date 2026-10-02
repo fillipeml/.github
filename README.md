@@ -10,3 +10,5 @@ loader, a webhook verifier and a spreadsheet writer have genuinely different thi
 reporting, and a single generic policy would say nothing useful about any of them.
 
 The profile page itself is [fillipeml/fillipeml](https://github.com/fillipeml/fillipeml).
+
+Licensed [CC BY 4.0](LICENSE), since these are documents rather than software.
