@@ -39,8 +39,12 @@ If you open a pull request:
 - A body only when the *why* is not obvious from the diff — which, for anything beyond a typo,
   it usually is not. The commit messages in these repositories carry the reasoning, and that is
   deliberate.
-- Every repository runs lint and its tests in CI, and most assert behaviour rather than only
-  running the suite. Check the workflow before assuming a green local run is enough.
+- Every repository has CI, and most assert behaviour rather than only running a suite. What CI
+  runs varies with what the repository is: the application and library repositories run their
+  linter and test suite; `postgres-rls-multitenant-starter` has no linter and instead proves
+  its guarantees against a real PostgreSQL and reproduces every way to break them; `portfolio`
+  checks the structure of its case studies, its links and its identifiers. Read the workflow
+  before assuming a green local run is enough.
 - Each repository's `CLAUDE.md` lists its non-negotiable rules — the invariants that must not be
   relaxed. Read it before changing anything it names.
 
