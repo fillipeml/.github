@@ -11,4 +11,4 @@ reporting, and a single generic policy would say nothing useful about any of the
 
 The profile page itself is [fillipeml/fillipeml](https://github.com/fillipeml/fillipeml).
 
-Licensed [CC BY 4.0](LICENSE), since these are documents rather than software.
+Licensed [CC BY 4.0](LICENSE), since these are documents rather than software. Copyright (c) 2026 Fillipe Loose.
